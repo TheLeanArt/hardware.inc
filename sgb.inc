@@ -340,7 +340,7 @@ def SGB_CHR_TRN_DEST_OBJ_1 equ %11
 ; -- SGB_PCT_TRN ($14) --------------------------------------------------------
 
 ; SGB border: BG map entry high byte values
-def S_SGB_BORDER_PALETTE equ 2
+def S_SGB_BORDER_PALETTE equ 2 ; bit 2-4
     def SGB_BORDER_PAL4  equ 4 << S_SGB_BORDER_PALETTE
     def SGB_BORDER_PAL5  equ 5 << S_SGB_BORDER_PALETTE
     def SGB_BORDER_PAL6  equ 6 << S_SGB_BORDER_PALETTE
